@@ -22,7 +22,7 @@ namespace PadraoRepositorio.API.Controllers
         [HttpPost]
         public IEnumerable<Pessoa> Post([FromBody] DataTable datatable)
         {
-            return repositorio.Filtrar(datatable);
+            return repositorio.Filtrar(datatable );  
         }
 
     }
